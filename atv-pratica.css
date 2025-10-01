@@ -65,6 +65,36 @@ span {
     text-transform: uppercase;
 }
 
+.section-02 {
+    background-color: #BFB16B;
+    padding: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.div-list-02 {
+    background-color: #979b295d;
+    align-items: center;
+    gap: 15px;
+    padding: 25px;
+}
+
+.div-list-02 ul li {
+    display: flex;
+}
+
+.div-list-02 img {
+    width: 50px; 
+    height: 50px; 
+    padding: 5px;
+    gap: 200px;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;  
+}
+
+
 .section-03 {
     padding: 200px;
     background-image: url(imagens/bench-6919896_1280.jpg);
@@ -77,12 +107,35 @@ span {
 }
 
 .section-03 button {
-    background-color: rgba(0, 0, 0, 0.658);
-    color: black;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: rgb(255, 255, 255);
     width: 180px;
     padding: 10px;
     border: none;
     box-shadow: 5px 5px 10px white;
 }
+
+.section-04 {
+    background-color: #59574A;
+    padding: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-section-04 {
+    width: 350px;
+    height: 350px;
+    background-color: #D9C7A7;
+    text-align: center;
+    padding: 20px;    
+}
+
+.orquidia img {
+    width: 200px;
+    height: 200px;
+}
+
 
 
