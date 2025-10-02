@@ -126,8 +126,8 @@ span {
 
 .div-section-04 {
     width: 350px;
-    height: 350px;
-    background-color: #D9C7A7;
+    height: 400px;
+    background-color: #b8a789;
     text-align: center;
     padding: 20px;    
 }
@@ -136,6 +136,39 @@ span {
     width: 200px;
     height: 200px;
 }
+
+.lirio img {
+    width: 200px;
+    height: 200px;
+}
+
+.margarida img {
+     width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #57591E;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: solid 1px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
