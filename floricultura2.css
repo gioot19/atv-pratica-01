@@ -1,5 +1,24 @@
+body{
+
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    margin: 0;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/22/10/19/sunflowers-3623331_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .div-floricultura {
     display: flex;
-    
-
-}
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    }

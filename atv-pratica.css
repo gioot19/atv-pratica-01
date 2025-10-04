@@ -69,11 +69,13 @@ span {
     background-color: #BFB16B;
     padding: 50px;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
 .div-list-02 {
+    display: flex;
+    
     background-color: #979b295d;
     align-items: center;
     gap: 15px;
@@ -107,12 +109,18 @@ span {
 }
 
 .section-03 button {
-    background-color: rgba(0, 0, 0, 0.685);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 180px;
     padding: 10px;
     border: none;
     box-shadow: 5px 5px 10px white;
+    transition: 1s;
+    text-shadow: 5px 5px 10px  rgba(85, 84, 84, 0.993);
+}
+
+.section-03 button:hover {
+    transform: scale(1.1);
 }
 
 .section-04 {
@@ -129,7 +137,13 @@ span {
     height: 400px;
     background-color: #b8a789;
     text-align: center;
-    padding: 20px;    
+    padding: 20px;
+    transition: 1s;
+    text-shadow: 5px 5px 10px rgb(112, 112, 112);   
+}
+
+.div-section-04:hover {
+    transform: scale(1.1);
 }
 
 .orquidia img {
